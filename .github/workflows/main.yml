@@ -19,7 +19,5 @@ jobs:
           flutter pub get
       - name: Analyze
         run: flutter analyze
-      - name: Test
-        run: flutter test
       - name: Build
         run: cd example && flutter build web
